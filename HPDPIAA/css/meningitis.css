@@ -1,0 +1,73 @@
+/*meningitis*/
+
+body{
+    background-color: rgb(252, 252, 252);
+    margin:0;
+    
+  }
+
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(104, 8, 69);
+}
+
+.active {
+    background-color: #4CAF50;
+
+}
+
+.men{ color: black;
+    -webkit-text-fill-color: rgb(211, 12, 12); /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-align: center;
+    font-style: oblique;
+
+}
+.sym{
+    text-align: right;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #000000;
+    border-color: green;
+    border-style: solid;
+    border-width: medium;
+    border-radius: 10%;
+    background-color: #0b5c06;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+
+}
+
+.sym1{
+    text-align: left;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #000000;
+    border-color: rgb(19, 0, 128);
+    border-style: solid;
+    border-width: medium;
+    border-radius: 10%;
+    background-color: #2b24b3;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}

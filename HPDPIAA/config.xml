@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.pgb.brewapp" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="https://phonegap.com/ns/1.0">
+	<name>Hygiene Promotion and Diseases Prevention IAA.</name>
+	<description>
+		Learn and Update your knowledge on Hygiene promotion and Diseases prevention Information as Aid
+	</description>
+
+	<author email="1watch2playgame" href="https://1watch2playagme">
+	   1w2pg
+	</author>
+
+       <icon src="icon.png" />
+       <splash src="splash.png" />
+	<preference name="HPDP-version" value="cli-6.0.0" />
+</widget>
